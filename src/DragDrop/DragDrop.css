@@ -1,0 +1,112 @@
+.draggable
+{
+    width: 80px;
+    height: 60px;
+   cursor: move;
+    margin: 5px auto;
+    
+    
+}
+
+.wip
+{
+    margin-top: 21px;
+    height: 128px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    /* border: 1px solid #e8e8e8; */
+    
+}
+.droppable
+{
+    height: 128px;
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    margin-top: 40px;
+    
+    
+    /* background-color:lightgrey; */ 
+}
+.input-box
+{
+  /* margin-top: 8px;
+  background:#f5f5f5;
+  padding: 8px 16px 0 16px;
+  height: 32px !important;
+  width: 492px;
+  margin-top: 0.5%;
+  border-bottom: 1px solid #0066b3; */
+  height: 2.5rem;
+  min-width: 18.75rem;
+  padding: 0 1rem!important;
+  color: #152935;
+  box-shadow: 0 1px 0 0 #717171;
+  flex-direction: unset!important;
+  background-color: #f5f5f5;
+  width:100%;
+  border-bottom: 0!important;
+
+}
+.input-box:focus
+{
+    box-shadow: 0 2px 0 0 #0066b3;
+}
+#All-tools
+{
+    height: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #152935;
+}
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text);
+    
+    color: red;
+    margin-top: 54px;
+    width: 100%;
+    text-align: center;
+  height: 20px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #717171;
+
+}
+.sideBarItem
+{
+    border-left: 3px solid #0066b3;
+}
+.main-content
+{
+   
+    text-align: center!important;
+}
+#project-settings-component
+{
+    position: relative;
+    width:100%;
+    overflow-y: auto
+}
+.success-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.success-content-new-ps-screen
+{
+    width: 736px;
+    height: 431px;
+    
+}
